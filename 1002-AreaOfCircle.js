@@ -7,7 +7,7 @@ const pi = 3.14159;
 
 let R = [2.00, 100.64, 150.00];
 
-for(i=0; i<R.length; i++) {
+for(let i=0; i<R.length; i++) {
     let area = (pi*(R[i]*R[i])).toFixed(4);
     console.log(`A=${area}`)
 }
