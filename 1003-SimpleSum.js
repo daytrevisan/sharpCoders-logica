@@ -1,10 +1,19 @@
 // Calcular a soma de dois números
 
-let num = [(30, 10), (-30, 10), (0, 0)];
+// Pares de números: [(30, 10), (-30, 10), (0, 0)]
 
-for(i=0; i<num.length; i++) {
-    for(j=0, j<num.length; j++) {
-        let soma = num[i] + num[j];
+let numeros = [
+    [30, 10],
+    [-30, 10],
+    [0, 0]
+];
+
+for(let i=0; i<numeros.length; i++) {
+
+    for(let j=0; j<numeros[i].length; j++) {
+
+        let soma = parseInt(numeros[i][0]) + parseInt(numeros[i][1]);
+
         console.log(`SOMA = ${soma}`);
     }
 }
