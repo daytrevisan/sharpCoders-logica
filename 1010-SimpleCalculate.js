@@ -19,8 +19,8 @@ let produtos = [
     ]
 ]
 
-let linhaUm = lines.shift().split(" ");
-let linhaDois = lines.shift.split(" ");
+let linhaUm = produtos.shift().toString().split(" ");
+let linhaDois = produtos.shift().toString().split(" ");
 
 let id1 = linhaUm[0];
 let unit1 = parseInt(linhaUm[1]);
